@@ -5,14 +5,14 @@ import java.util.Arrays;
 public class Main {
 	public static void main(String[] args) {
 		// Task 1
-		System.out.println("Total count of 'abc' and 'aba': " + AbcAbaCount("abcabaccc"));
+		System.out.println("Total count of 'abc' and 'aba' in \"abcabaccc\": " + AbcAbaCount("abcabaccc"));
 		
 		// Task 2
-		System.out.println("Total count of '11' without overlap: " + ElevenCount("111test11111"));
+		System.out.println("Total count of '11' without overlap in \"111test11111\": " + ElevenCount("111test11111"));
 		
 		// Task 3
-		int[] testArray = new int[] {20, 10, 10, 20};
-		System.out.println(splitArray(testArray, testArray.length));
+		int[] testArray = new int[] {25, 5, 10, 10, 10};
+		System.out.println("The sum of each split array are equal: " + splitArray(testArray, testArray.length));
 	}
 	
 //	1-
